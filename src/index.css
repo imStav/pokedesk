@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /***index.html***/
+    .body {
+        @apply text-slate-900 dark:text-slate-100;
+    }
+
+    /***Views UI***/
+    .view-layout {
+        @apply flex justify-center items-center h-screen mx-auto;
+    }
+
+    /***Components UI***/
+    /*Windows (apps / files) heading bar layout*/
+    .app-header {
+        @apply grid grid-cols-2 rounded-t-md;
+    }
+
+    /*Window heading bar color(s)*/
+    .app-header-style {
+        @apply bg-white dark:bg-black border-b border-neutral-300 dark:border-neutral-700;
+    }
+
+    /*Pokedex container*/
+    .pokedex-ui {
+        @apply bg-[#FFFFFF50] dark:bg-[#00000090] backdrop-blur-xl rounded-md;
+    }
+
+    /*Folder container*/
+    .folder-ui {
+        @apply bg-white dark:bg-neutral-800 rounded-md;
+    }
+
+    /*Dialog (notes) container*/
+    .dialog-ui {
+        @apply p-0 bg-white text-slate-800 dark:bg-neutral-800 dark:text-slate-100 backdrop:bg-transparent rounded-md w-4/12;
+    }
+
+    /***Icons UI***/
+    /**home app**/
+    .windows-home {
+        @apply bg-clip-text text-transparent bg-gradient-to-br from-sky-200 to-sky-400;
+    }
+
+    /**global gradients style**/
+    .bg-clip-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r;
+    }
+
+    /*fa-file icon*/
+    .file-gradient {
+        @apply from-neutral-300 to-gray-400 dark:from-slate-300 dark:to-gray-300;
+    }
+
+    /*fa-file-image icon*/
+    .image-gradient {
+        @apply from-sky-400 to-blue-500;
+    }
+
+    /*fa-folder icon*/
+    .folder-gradient {
+        @apply from-amber-200 to-amber-400;
+    }
+
+    /*fa-wifi icon*/
+    .wifi-gradient {
+        @apply from-slate-700 to-slate-900 dark:from-slate-100 dark:to-slate-300;
+    }
+
+    /*fa-tablet (used to illustrate pokedex app)*/
+    .pokedex-gradient {
+        @apply from-red-300 to-red-500;
+    }
+
+    /**global hover effects**/
+    .home-hover-effects {
+        @apply hover:scale-125 hover:transition-all duration-150;
+    }
+
+    .folder-files-hover {
+        @apply hover:bg-[#cfeaffC0] dark:hover:bg-[#FFFFFF30];
+    }
+}
