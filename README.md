@@ -4,7 +4,7 @@
 
 Pokedesk is a fictional desktop session of the Pokémon's Pr Chen.<br>
 It **tries to** imitate a Windows 11 like user interface.<br>
-It contains a little **Pokédex**
+It contains a little **Pokédex**.
 
 ### Technologies
 
