@@ -1,5 +1,6 @@
 <script setup>
 import { ref , onMounted } from 'vue'
+import { getNormalPikachu , getShinyPikachu } from '../apis/getPokemons';
 import WindowsHeader from '../components/WindowsHeader.vue'
 
 //Default Note content
@@ -13,31 +14,6 @@ let note = {
 //Reactive variables to display sprites
 const normalPikachu = ref()
 const shinyPikachu = ref()
-const url = 'https://pokeapi.co/api/v2/pokemon/pikachu/'
-
-//Retrieves data from RESTapi at pokeapi.co
-async function getNormalPikachu() {
-    try {
-        const pikapika = await fetch(url)
-        const res = await pikapika.json()
-        const pikachu = res.sprites.other.home.front_default
-        
-        return pikachu
-    }
-    catch (e) { console.log(e) }
-}
-
-//Retrieves data from RESTapi at pokeapi.co
-async function getShinyPikachu() {
-    try {
-        const pikapika = await fetch(url)
-        const res = await pikapika.json()
-        const pikachu = res.sprites.other.home.front_shiny
-        
-        return pikachu
-    }
-    catch (e) { console.log(e) }
-}
 
 onMounted(async() => {
     const getPika = await getNormalPikachu()

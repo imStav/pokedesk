@@ -1,15 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue'
-// import WindowsHeader from '../components/WindowsHeader.vue'
-// import Notes from '../components/Notes.vue'
-
-// function readNotes() {
-//     let modal = document.querySelector('#notes')
-//     modal.showModal()
-// }
-
-// const pikachuShiny = ref('/src/assets/media/shiny_pikachu.png')
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
