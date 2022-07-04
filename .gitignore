@@ -26,9 +26,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-
-# Packages and configs
-vite.config.js
-tailwind.config.js
-package-lock.json
-postcss.config.js
