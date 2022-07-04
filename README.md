@@ -15,7 +15,7 @@ It contains a little **Pokédex**
 
 *Find more information in the `package.json` file*
 
-![pokedesk preview picture.](/src/assets/screenshots/preview.JPG "Pr Chen's session preview")
+![pokedesk preview picture.](src/assets/screenshots/preview.JPG "Pr Chen's session preview")
 
 ### Thoughts
 
