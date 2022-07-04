@@ -1,6 +1,6 @@
 <script setup>
-import { usePokemonStore } from '../stores/pokemons';
-import WindowsHeader from './WindowsHeader.vue';
+import { usePokemonStore } from '../stores/pokemons'
+import WindowsHeader from './WindowsHeader.vue'
 
 const getPoke = usePokemonStore()
 
