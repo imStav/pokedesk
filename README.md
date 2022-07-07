@@ -10,7 +10,7 @@ It contains a little **Pokédex**.
 
 * 🔭 Vue.js (v3.2.36)
 * 🍍 Pinia (v2.0.14)
-* 🚀 Vite (v2.9.9)
+* ⚡ Vite (v2.9.9)
 * 🌈 Tailwind CSS (v3.1.4)
 
 *Find more information in the `package.json` file*
