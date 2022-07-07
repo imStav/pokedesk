@@ -14,6 +14,11 @@
     }
 
     /***Components UI***/
+    /**Windows Navbar**/
+    .navbar {
+        @apply fixed bottom-0 bg-[#FFFFFF10] dark:bg-[#00000090] backdrop-blur-xl w-full text-2xl;  
+    }
+
     /*Windows (apps / files) heading bar layout*/
     .app-header {
         @apply grid grid-cols-2 rounded-t-md;
@@ -82,6 +87,10 @@
 
     .folder-files-hover {
         @apply hover:bg-[#cfeaffC0] dark:hover:bg-[#FFFFFF30];
+    }
+
+    .wifi-hover {
+        @apply hover:bg-[#FFFFFF20] hover:transition-all duration-150;
     }
 }
 

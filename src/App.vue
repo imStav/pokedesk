@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
 <header>
-  <nav class="fixed bottom-0 bg-[#FFFFFF10] dark:bg-[#00000090] backdrop-blur-xl w-full text-2xl">
+  <nav class="navbar">
     <div class="flex flex-row">
       <div class="flex mx-auto py-2">
         <RouterLink to="/">
@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </RouterLink>
       </div>
 
-      <div class="text-lg p-2 hover:bg-[#FFFFFF20] hover:transition-all duration-150 fixed right-0">
+      <div class="text-lg p-2 fixed right-0 wifi-hover">
         <i class="fa-solid fa-wifi bg-clip-gradient wifi-gradient" title="Pr Chen's Network"></i>
       </div>
 
