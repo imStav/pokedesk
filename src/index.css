@@ -84,3 +84,24 @@
         @apply hover:bg-[#cfeaffC0] dark:hover:bg-[#FFFFFF30];
     }
 }
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body {
+      background-image: url('/src/assets/media/windows_home_light.jpg');
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-image: url('/src/assets/media/windows_home_dark.jpg');
+    }
+  }
