@@ -15,7 +15,10 @@ It contains a little **Pokédex**.
 
 *Find more information in the `package.json` file*
 
-![pokedesk preview picture.](src/assets/screenshots/preview.JPG "Pr Chen's session preview")
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/media/windows_home_dark.jpg">
+  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/media/windows_home_light.jpg">
+</picture>
 
 ### Thoughts
 
