@@ -1,6 +1,6 @@
 <script setup>
 import { ref , onMounted } from 'vue'
-import { getNormalPikachu , getShinyPikachu } from '../apis/getPokemons';
+import { getNormalPikachu , getShinyPikachu } from '../apis/getPokemons'
 import WindowsHeader from '../components/WindowsHeader.vue'
 
 //Default Note content
@@ -53,10 +53,10 @@ onMounted(async() => {
             <p>{{ note.text }}</p>
         </slot>
 
-        <div class="flex w-full justify-center">
+        <div class="flex justify-center">
             <div class="my-4 px-2 py-2">
                 <slot name="img">
-                    <img :src="normalPikachu" class="h-24 w-min" alt="normal pikachu" />
+                    <img :src="normalPikachu" class="h-24" alt="normal pikachu" />
                 </slot>
                 <slot name="description">
                     <p class="text-center italic opacity-80">Normal</p>
@@ -64,7 +64,7 @@ onMounted(async() => {
             </div>
 
             <div class="my-4 px-2 py-2">
-                <img :src="shinyPikachu" class="h-24 w-min" alt="shiny pikachu" />
+                <img :src="shinyPikachu" class="h-24" alt="shiny pikachu" />
                 <p class="text-center italic opacity-80">Shiny</p>
             </div>
         </div>
