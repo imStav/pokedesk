@@ -13,14 +13,6 @@ import { RouterLink } from 'vue-router'
                 <p>Research</p>
             </RouterLink>
         </div>
-
-        <!-- Work in progress -->
-        <!-- <div class="p-2 text-center border border-transparent hover:border hover:border-slate-400 hover:bg-[#6B728060] hover:border-opacity-50" @click="readNotes">
-            <i class="fa-solid fa-file-lines text-5xl bg-clip-gradient file-gradient"></i>
-            <p>Shiny Theory</p>
-        </div>
-
-        <Notes /> -->
     </div>
 </section>
 </template>
