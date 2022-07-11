@@ -41,10 +41,5 @@ export const usePokemonStore = defineStore({
         id: 130
       }
     }
-  }),
-  getters: {
-  },
-  actions: {
-    
-  }
+  })
 })
