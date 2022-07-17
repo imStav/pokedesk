@@ -8,10 +8,10 @@ It contains a little **Pokédex**.
 
 ### Technologies
 
-* 🔭 Vue.js (v3.2.36)
-* 🍍 Pinia (v2.0.14)
-* ⚡ Vite (v2.9.9)
-* 🌈 Tailwind CSS (v3.1.4)
+* 🔭 Vue.js (3.2.36)
+* 🍍 Pinia (2.0.14)
+* ⚡ Vite (2.9.9)
+* 🌈 Tailwind CSS (3.1.4)
 
 *Find more information in the `package.json` file*
 
@@ -22,5 +22,4 @@ It contains a little **Pokédex**.
 
 ### Thoughts
 
->The project is subject to changes, notably the session's backgrounds,<br>
-and some other UI elements. It's still a work in progress.
+>The project is subject to changes, notably the session's backgrounds, and some other UI elements. It's still a work in progress.
