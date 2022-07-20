@@ -13,6 +13,11 @@
         @apply flex justify-center items-center h-screen mx-auto;
     }
 
+    /**HomeView UI**/
+    .home-view-layout {
+        @apply w-1/2 flex justify-center items-center mx-auto h-screen text-slate-100;
+    }
+
     /***Components UI***/
     /**Windows Navbar**/
     .navbar {
@@ -81,6 +86,10 @@
     }
 
     /**global hover effects**/
+    .home-single-folder {
+        @apply p-2 text-center border border-transparent hover:border hover:border-slate-400 hover:bg-[#6B728060] hover:border-opacity-50;
+    }
+
     .home-hover-effects {
         @apply hover:scale-125 hover:transition-all duration-150;
     }
@@ -101,16 +110,16 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     body {
-      background-image: url('/src/assets/media/windows_home_light.jpg');
+        background-image: url('/src/assets/media/windows_home_light.jpg');
     }
-  }
-  
-  @media (prefers-color-scheme: dark) {
+}
+
+@media (prefers-color-scheme: dark) {
     body {
-      background-image: url('/src/assets/media/windows_home_dark.jpg');
+        background-image: url('/src/assets/media/windows_home_dark.jpg');
     }
-  }
+}
