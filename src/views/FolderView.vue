@@ -10,20 +10,6 @@ import Notes from '../components/Notes.vue'
 
     <!-- Calls the Notes component -->
     <!-- Customizable on needs using slots -->
-    <Notes>
-        <template #title>
-            
-        </template>
-        <template #text>
-            
-        </template>
-
-        <template #img>
-            
-        </template>
-        <template #description>
-            
-        </template>
-    </Notes>
+    <Notes />
 </div>
 </template>
