@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
 <!-- This code crafts the window heading bar for every apps / files -->
 <div class="app-header app-header-style">
     <div class="flex items-center mx-4">
-        <slot name="app-icon"/>
+        <slot name="app-icon" />
         <slot name="app-name" />
     </div>
 

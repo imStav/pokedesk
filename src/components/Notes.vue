@@ -3,7 +3,7 @@ import { ref , onMounted } from 'vue'
 import { getNormalPikachu , getShinyPikachu } from '../apis/getPokemons'
 import WindowsHeader from '../components/WindowsHeader.vue'
 
-//Default Note content
+// Default Note content
 let note = {
     fileName: 'shiny_pikachu.txt',
     title: 'Shiny Pikachu!',
@@ -11,7 +11,7 @@ let note = {
     source: 'Source: pr-chen.io/shiny-research'
 }
 
-//Reactive variables to display sprites
+// Reactive variables to display sprites
 const normalPikachu = ref()
 const shinyPikachu = ref()
 
