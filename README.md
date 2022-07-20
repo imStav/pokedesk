@@ -9,8 +9,8 @@ It contains a little **Pokédex**.
 ### Technologies
 
 * 🔭 Vue.js (3.2.36)
-* 🍍 Pinia (2.0.14)
 * ⚡ Vite (2.9.9)
+* 🍍 Pinia (2.0.14)
 * 🌈 Tailwind CSS (3.1.4)
 
 *Find more information in the `package.json` file*
