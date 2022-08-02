@@ -16,8 +16,8 @@ It contains a little **Pokédex**.
 *Find more information in the `package.json` file*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/pokedesk_dark_preview.png">
-  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/screenshots/pokedesk_light_preview.png">
+  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/dark_preview.png">
+  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/screenshots/light_preview.png">
 </picture>
 
 ### Thoughts

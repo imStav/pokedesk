@@ -114,12 +114,12 @@ body {
   
 @media (prefers-color-scheme: light) {
     body {
-        background-image: url('/src/assets/media/windows_home_light.jpg');
+        background-image: url('/src/assets/media/light-min.png');
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url('/src/assets/media/windows_home_dark.jpg');
+        background-image: url('/src/assets/media/dark-min.png');
     }
 }
