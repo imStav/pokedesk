@@ -34,9 +34,14 @@
         @apply bg-white dark:bg-black border-b border-neutral-300 dark:border-neutral-700;
     }
 
+    /*Badge*/
+    .badge {
+        @apply mb-4 px-3 w-min bg-blue-500 text-blue-100 rounded-md;
+    }
+
     /*Pokedex container*/
     .pokedex-ui {
-        @apply bg-[#FFFFFF50] dark:bg-[#00000090] backdrop-blur-xl rounded-md;
+        @apply bg-[#FFFFFF50] dark:bg-[#00000090] backdrop-blur-xl backdrop-saturate-150 rounded-md;
     }
 
     /*Folder container*/
@@ -114,12 +119,12 @@ body {
   
 @media (prefers-color-scheme: light) {
     body {
-        background-image: url('/src/assets/media/light-min.png');
+        background-image: url('/src/assets/media/w11_light.webp');
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url('/src/assets/media/dark-min.png');
+        background-image: url('/src/assets/media/w11_dark.webp');
     }
 }

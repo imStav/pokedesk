@@ -25,7 +25,7 @@ let app = {
 
     <div class="flex flex-col m-8">
         <h2 class="font-bold text-2xl">Pr Chen's {{ app.name }}</h2>
-        <p class="italic mb-4 px-3 py-1 w-min bg-blue-500 text-slate-200 rounded-md">#{{ app.category }}</p>
+        <p class="badge">{{ app.category }}</p>
 
         <div class="grid grid-cols-3">
             <!-- Retrieving data from store trough a for loop -->
