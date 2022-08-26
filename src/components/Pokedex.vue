@@ -29,7 +29,7 @@ let app = {
 
         <div class="grid grid-cols-3">
             <!-- Retrieving data from store trough a for loop -->
-            <div v-for="pokemon in getPoke.pokemons" class="flex flex-col justify-center items-center text-center p-2">
+            <div v-for="pokemon in getPoke.pokemons" :key="pokemon.id" class="flex flex-col justify-center items-center text-center p-2">
                 <p class="italic">{{ pokemon.name }}</p>
                 <img :src="pokemon.img" class="w-24" alt="">
                 <p class="opacity-50">#{{ pokemon.id }}</p>
