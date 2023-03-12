@@ -16,5 +16,5 @@
 
 *Find more information in the `package.json` file*
 
-> **Warning**
+> **Warning** <br>
 > Pokédesk is not meant to be responsive on mobile nor tablet devices
