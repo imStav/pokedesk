@@ -1,12 +1,13 @@
-# Pokedesk
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/mockups/mockup-dark.png">
+  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/mockups/mockup-light.png">
+</picture>
 
-## The project
+# Pokédesk
 
-Pokedesk is a fictional desktop session of the Pokémon's Pr Chen.<br>
-It **tries to** imitate a Windows 11 like user interface.<br>
-It contains a little **Pokédex**.
+> **Pokédesk** is a fictional desktop session of the *Pokémon's Pr Chen*, **trying to** imitate a `Windows 11-like` user interface. It contains a little `Pokédex`, accessible like an app via the bottom `taskbar`
 
-### Technologies
+## Technologies
 
 * 🔭 Vue.js (3.2.36)
 * ⚡ Vite (2.9.9)
@@ -15,11 +16,5 @@ It contains a little **Pokédex**.
 
 *Find more information in the `package.json` file*
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/src/assets/screenshots/pokedesk_dark_preview.png">
-  <img alt="Pokedesk homepage preview in light color mode and dark color mode." src="/src/assets/screenshots/pokedesk_light_preview.png">
-</picture>
-
-### Thoughts
-
->The project is subject to changes, notably the session's backgrounds, and some other UI elements. It's still a work in progress.
+> **Warning**
+> Pokédesk is not meant to be responsive on mobile nor tablet devices
